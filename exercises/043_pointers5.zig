@@ -1,8 +1,8 @@
 //
 // As with integers, you can pass a pointer to a struct when you
 // will wish to modify that struct. Pointers are also useful when
-// you need to store a reference to a struct (a "link" to it).
 //
+// you need to store a reference to a struct (a "link" to it).
 //     const Vertex = struct{ x: u32, y: u32, z: u32 };
 //
 //     var v1 = Vertex{ .x=3, .y=2, .z=5 };
@@ -68,7 +68,7 @@ pub fn main() void {
 
     // FIX ME!
     // Please pass Glorp to printCharacter():
-    printCharacter(???);
+    printCharacter(&glorp);
 }
 
 // Note how this function's "c" parameter is a pointer to a Character struct.
